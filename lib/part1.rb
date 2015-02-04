@@ -8,7 +8,8 @@ end
 def max_2_sum arr
   
   if arr.length==0
-    return true
+    n = 0
+    return n
   end
   if arr.length==1
     return arr[0]
@@ -22,7 +23,7 @@ end
 def sum_to_n? arr, n
   i = 0
   if arr.length==0 && n==0
-    return true
+    return false
   end
   
   while i <= arr.length-2
